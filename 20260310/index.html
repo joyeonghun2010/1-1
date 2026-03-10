@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            /*태그 선택자 (div, h1, label, input)
+            id 선택자(#id)
+            */
+
+            background-color: rgb(200,200,200); /*div로 나뉘어진 구역을 rgb값으로 정해진 색으로 채움*/
+            border: 1px solid rgb(150,120,120); /*div로 나뉘어진 구역의 테두리를 rgb값으로 정해진 색으로 채움*/
+            padding: 1rem; /*안쪽여백 크기 설정*/
+            margin: 1rem; /*바깥쪽 여백 크기 설정*/
+        }
+        #bbb{
+            background-color: rgb(50, 50, 50); /*bbb id를 가진 요소를 rgb값으로 정해진 색으로 채움*/
+        }          
+    </style>
+</head>
+<body>
+    <h1>로그인</h1>
+    <div id="aaa"> <!--div : 웹사이트의 구역 나누기-->
+        <label for="id">id</label> <!--사용자 인터페이스의 이름 설정(id)-->
+        <input type="text" name="" id=""> <!--입력창 표시-->
+    </div>
+    
+    <div id="bbb"> <!--div id= div로 나뉘어진 구역에 id 지정-->
+        <label for="pw">password</label> <!--사용자 인터페이스의 이름 설정(password)-->
+        <input type="password" name="" id="pw"> <!--id: 동일한 for id를 가진 라벨과 세트가 됨(라벨 클릭시 세트인 input으로 이동)-->
+    </div>
+</body>
+</html>

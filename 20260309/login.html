@@ -18,12 +18,12 @@
     </style>
 </head>
 <body>
-    <h1>안녕하세요 </h1>
+    <h1>안녕하세요 </h1> <!--안녕하세요 라는 대제목을 띄움-->
 </body>
 </html>
-<script>
-    const qqq = document.getElementsByTagName("h1");
-    qqq[0].onclick = function(){
-        alert("눌렀음")
+<script> //자바스크립트를 Html에서 사용할떄 쓰는 태그
+    const qqq = document.getElementsByTagName("h1"); //qqq라는 변수에 h1을 넣음
+    qqq[0].onclick = function(){ //qqq(h1)에 클릭이 감지 됬을때 함수 실행
+        alert("눌렀음") //눌렀음 이라는 알람 띄움
     }
 </script>
